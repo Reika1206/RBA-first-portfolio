@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Renz Angelo Babatio</title>
+    <link rel="icon" type="image/png" sizes="128x128" href="/img/logoko.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    
+    <!--Profile page-->
+    <div class="profile">
+<header>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="home.html"><img src="./img/logoko.png" alt="logo"></a></li>
+            <input type="checkbox"  id="check">
+            <span class="menu">
+                    <li><a href="home.html">Home</a></li>
+                        <li><a href="#sct1">Projects</a></li>
+                            <li> <a href="#skills">Skills</a></li>
+                                <li> <a href="#about-name">About</a></li>
+                                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+</header>
+
+        <div class="name"><h1>Renz Angelo Babatio</h1></div>
+        <div class="container"><h1>I'm a&nbsp;<span class="auto-type"></span><h1></div>    
+        <div class="buttons"><button><a href="#boxes" class="button_top" style="text-decoration: none;">Get Started</a></button></div>
+        <div class="my-image">
+            <img src="./img/ako.png" alt="My Image">
+        </div>
+</div>
+   
+    <!--Portfolio page-->    
+<div class="section-1" id="sct1">
+        <div class="latest" id="boxes">
+            <h1>Latest</h1> 
+            <h3>Projects</h3>            
+        </div>
+     <div class="project-container" >
+        <div class="image-container">
+            <div id="lbr-class">
+            <div class="lbr">
+                <a href="#">Library System - PHP,Mysql</a>
+                <img src="./img/library.png" alt="Library System Project">
+            </div>
+        </div>
+            <div class="ggl">
+                <a href="#">Google Search Bar Clone - HTML,CSS,JS</a>
+                <img src="./img/google.png" alt="Google Search Bar Copy Project">
+            </div>
+        </div>
+     </div>   
+
+       
+    </div>    
+    
+    
+    <div class="section-2">
+        <div id="skills">
+            <h1>Skills</h1> 
+        </div>
+    
+    <div id="cntr-skills">
+        <div class="container-skills">
+                <div class="content-section">
+                    <div class="card">
+                        <img src="./img/html.png" alt="HTML logo">
+                        <h2>HTML</h2>
+                        <p></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/css.png" alt="CSS logo">
+                        <h2>CSS</h2>
+                        <p></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/js.png" alt="Javascript logo">
+                        <h2>Javascript</h2>
+                        <p></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/php.png" alt="PHP logo">
+                        <h2>PHP</h2>
+                        <p>Basic CRUD and Session</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/mysql.png" alt="MySql logo">
+                        <h2>MySql</h2>
+                        <p></p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+
+   <div class="section-3">
+    <div id="about-name">
+        <h1>About</h1>
+    </div>
+    <div class="about-image">
+        <img src="./img/about me.png" alt="My image">
+    </div>
+        <div class="about-content">
+                <p>I am a Renz Angelo Babatio 20 year old student at the Rizal Technological University. <br>I am a developer i can do front end but in minimalist design. I'm currently studying HTML, CSS, JS.<br> I have a quite experience in backend specially in PHP and MySql basic CRUD and Session.<br>If you have any suggestion regarding to my portfolio feel free to email me at babatiorenz@gmail.com</p>
+        </div>
+           
+   </div>
+
+   <footer>
+    <hr>
+    <p>RBA</p>
+    <p>All Rights Reserved 2023</p>
+   </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+    
+        var typed = new Typed(".auto-type",{
+            strings: ["Developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+            
+        })
+      
+    </script>
+</body>
+</html>
